@@ -1,0 +1,316 @@
+@import url(./header-footer.css);
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+
+body,
+html{
+  margin: 0;
+  overflow-x: hidden;
+
+  width: 100%;
+  height: 100%;
+}
+
+ul , li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;  
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.container{
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+/* HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  HEADER */
+
+/* SLIDER SLIDER SLIDER SLIDER SLIDER SLIDER SLIDER SLIDER */
+
+.slider{
+  background: grey;
+  height: 500px;
+  width: 100%;
+}
+
+.slider__title{
+  border-left: 3px solid black;
+  width: 600px;
+  padding: 8px;
+}
+
+.slider__title-text{
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 29px;
+  color: #000000;
+}
+
+
+/* ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
+
+.about{
+  margin-top: 60px;
+}
+
+.about__block{
+  border-left: 3px solid #000000;
+  width: 93%;
+  padding: 30px;
+}
+
+.about__text{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+
+  text-indent: 30px;
+}
+
+.about__text-margin{
+  margin-top: 8px;
+}
+
+.about__block-list{
+  padding-top: 10px;
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+
+.list__item{
+  list-style: square;
+}
+
+.list__title{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;  
+}
+
+.list__text{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.line-1{
+  max-width: 1030px;
+  height: 1px;
+  background-color: #000000;
+  margin: 80px auto 30px auto;
+}
+
+.line-2{
+  width: 375px;
+  height: 1px;
+  background-color: #000000;
+  margin: 40px 20% 0 auto;
+}
+
+@media screen and (max-width:720px) {
+
+  .about{
+    margin-top: 30px;
+  }
+  
+  .about__block{
+    padding: 15px;
+  }
+  
+  .about__text{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+  
+    text-indent: 15px;
+  }
+  
+  .about__text-margin{
+    margin-top: 4px;
+  }
+  
+  .about__block-list{
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .list__title{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  
+  .list__text{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .line-1{
+    max-width: 85%;
+    height: 1px;
+    background-color: #000000;
+    margin: 50px auto 20px auto;
+  }
+  
+  .line-2{
+    width: 33%;
+    height: 1px;
+    background-color: #000000;
+    margin: 30px 20% 0 auto;
+  }
+}
+
+
+@media screen and (max-width:420px) {
+
+  .about{
+    margin-top: 30px;
+  }
+  
+  .about__block{
+    padding: 15px;
+  }
+  
+  .about__text{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+  
+    text-indent: 15px;
+  }
+  
+  .about__text-margin{
+    margin-top: 4px;
+  }
+  
+  .about__block-list{
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .list__title{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  
+  .list__text{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .line-1{
+    max-width: 85%;
+    height: 1px;
+    background-color: #000000;
+    margin: 50px auto 20px auto;
+  }
+  
+  .line-2{
+    width: 33%;
+    height: 1px;
+    background-color: #000000;
+    margin: 30px 20% 0 auto;
+  }
+}
+
+
+
+/* VIDEO VIDEO VIDEO VIDEO VIDEO VIDEO VIDEO VIDEO VIDEO */
+
+.video{
+  padding-top: 60px;
+}
+
+.video__title{
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+
+.video__container{
+  width: 1030px;
+  margin: 0 auto;
+}
+
+.line-3{
+  width: 375px;
+  height: 1px;
+  background-color: #000000;
+  margin: 40px 20% 0 auto;
+}
+
+
+
+/* HISTORY HISTORY HISTORY HISTORY HISTORY HISTORY HISTORY HISTORY */
+
+.history{
+  padding-top: 60px;
+  margin-bottom: 70px;
+}
+
+.history__title{
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.history__block{
+  border-left: 3px solid #000000;
+  padding: 30px;
+}
+
+.history__item{
+  margin-bottom: 30px;
+}
+
+.history__item:last-child{
+  margin-bottom: 0;
+}
+
+.history__text{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+
